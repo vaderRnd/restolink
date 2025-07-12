@@ -20,14 +20,14 @@
 .footer__list {
   padding-block-start: 25px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 25px;
 }
 
 .footer__list_list-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
   background-color: #ffffffc0;
   border-radius: 50px;
   width: 250px;
@@ -37,8 +37,7 @@
     background-color: #f0f0f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease,
-      transform 0.3s ease;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
     cursor: pointer;
   }
 }
@@ -62,4 +61,9 @@
   font-style: normal;
   font-weight: 200;
   line-height: normal;
+}
+
+.footer__list_list-item .footer__list_list-item_link {
+  display: block;
+  padding: 14px 0;
 }
