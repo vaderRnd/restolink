@@ -43,13 +43,15 @@
 }
 
 .footer__list_list-item_link {
+  display: block;
+  padding: 15px 0;
   color: #000;
   font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  text-underline-offset: 5px;
+  text-decoration: none;
 }
 
 .footer__copyright {
@@ -61,9 +63,4 @@
   font-style: normal;
   font-weight: 200;
   line-height: normal;
-}
-
-.footer__list_list-item .footer__list_list-item_link {
-  display: block;
-  padding: 14px 0;
 }

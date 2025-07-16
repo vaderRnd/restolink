@@ -61,6 +61,8 @@
 }
 
 .main__section_list_list-item_link {
+  display: block;
+  padding: 15px 0;
   color: #000000;
   text-decoration: none;
   font-family: inherit;
@@ -88,7 +90,24 @@
   line-height: normal;
 }
 
-.main__section_list_list-item .main__section_list_list-item_link {
-  display: block;
-  padding: 15px 0;
+.main__section_iiko {
+  display: flex;
+  flex-direction: row;
+  inline-size: 1200px;
+  background-color: #96e696;
+  border-radius: 10px;
+}
+
+.main__section_list-iiko {
+  padding-block-end: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.main__section_list-iiko:nth-child(1),
+.main__section_list-iiko:nth-child(2) {
+  flex-grow: 1;
 }
