@@ -9,3 +9,14 @@
 @import url("main.css");
 
 @import url("footer.css");
+
+@import url("variables.css");
+
+@media (width < 1250px) {
+
+  .header,
+  .main,
+  .footer {
+    scale: 0.8;
+  }
+}

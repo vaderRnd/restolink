@@ -5,13 +5,13 @@
 }
 
 .header__logo {
-  inline-size: 300px;
-  align-self: center;
+  inline-size: 200px;
+  /* align-self: center; */
 }
 
-.header__hp {
-  padding-block-start: 50px;
-  color: #fff;
+.header__heading {
+  padding-block-start: 25px;
+  color: var(--main-text-color);
   text-align: center;
   font-family: Inter;
   font-size: 48px;
@@ -21,7 +21,7 @@
 }
 
 .header__link {
-  color: #fff;
+  color: var(--main-text-color);
   text-decoration: none;
   align-self: center;
 }
