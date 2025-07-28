@@ -1,7 +1,8 @@
 :root {
-  --bg-image: url("../img/bg/bg2.png");
+  --bg-image: url("../img/bg/bg1.png");
   --bg-shade: #00000080;
-  --bg-section: #737373;
   --main-text-color: #fff;
-  --main-btn-text-color: #000;
+  --main-text-color-btn: #000;
+  --brand-green: #72b62e;
+  --brand-grey: #3c3c3b;
 }

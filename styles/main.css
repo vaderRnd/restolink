@@ -11,8 +11,9 @@
   justify-content: center;
   gap: 25px;
   inline-size: 1200px;
-  background-color: var(--bg-section);
   border-radius: 10px;
+  outline: 3px solid var(--brand-green);
+  backdrop-filter: blur(3px);
 }
 
 .main__section_heading {
@@ -63,7 +64,7 @@
 .main__section_list_list-item_link {
   display: block;
   padding: 15px 0;
-  color: var(--main-btn-text-color);
+  color: var(--main-text-color-btn);
   text-decoration: none;
   font-family: inherit;
   font-size: 16px;
@@ -102,8 +103,9 @@
   display: flex;
   flex-direction: row;
   inline-size: 1200px;
-  background-color: var(--bg-section);
   border-radius: 10px;
+  outline: 3px solid var(--brand-green);
+  backdrop-filter: blur(3px);
 }
 
 .main__section_list-iiko {
