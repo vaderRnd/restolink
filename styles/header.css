@@ -5,6 +5,7 @@
 }
 
 .header__logo {
+  padding-block-start: 45px;
   inline-size: 200px;
   /* align-self: center; */
 }
@@ -13,7 +14,7 @@
   padding-block-start: 25px;
   color: var(--main-text-color);
   text-align: center;
-  font-family: Inter;
+  font-family: AxiformaSemiBold, Arial, Helvetica, sans-serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -24,4 +25,51 @@
   color: var(--main-text-color);
   text-decoration: none;
   align-self: center;
+}
+
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  inline-size: 1200px;
+  block-size: 100%;
+  border-radius: 10px;
+  outline: 3px solid var(--brand-green);
+  backdrop-filter: blur(3px);
+}
+
+.header__socials_list {
+  padding-block-start: 25px;
+  padding-block-end: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.header__socials_list-item {
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50px;
+  width: 250px;
+  height: 50px;
+}
+
+.header__socials_logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.header__qr {
+  padding-inline-end: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
 }

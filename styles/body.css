@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-family: AxiformaRegular, Arial, Helvetica, sans-serif;
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
@@ -21,5 +21,6 @@
   width: 100%;
   height: 100%;
   background-color: var(--bg-shade);
-  z-index: -1; /* Behind other content */
+  z-index: -1;
+  /* Behind other content */
 }

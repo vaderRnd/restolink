@@ -1,9 +1,13 @@
 @font-face {
-  font-family: Inter;
-  src: url(../fonts/Inter-Italic-VariableFont.ttf);
+  font-family: AxiformaRegular;
+  src: url(../fonts/Axiforma-Regular.ttf),
+    url(../fonts/Axiforma-Regular.woff2) format('woff2'),
+    url(../fonts/Axiforma-Regular.woff) format('woff');
 }
 
 @font-face {
-  font-family: Inter;
-  src: url(../fonts/Inter-VariableFont.ttf);
+  font-family: AxiformaSemiBold;
+  src: url(../fonts/Axiforma-SemiBold.ttf),
+    url(../fonts/Axiforma-SemiBold.woff2) format('woff2'),
+    url(../fonts/Axiforma-SemiBold.woff) format('woff');
 }
