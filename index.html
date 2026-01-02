@@ -161,8 +161,23 @@
         <a class="footer__list_list-item_link" href="https://resto-link.ru/" target="_blank">resto-link.ru</a>
       </li>
     </ul>
-    <p class="footer__copyright">© ООО "Ресто Линк", 2025</p>
+    <p class="footer__copyright">© ООО "Ресто Линк", <span id="copyright">2025</span></p>
   </footer>
+  <script>
+    // Год основания (не меняется)
+    const startYear = 2025;
+    // Текущий год
+    const currentYear = new Date().getFullYear();
+    // Элемент для вставки
+    const yearElement = document.getElementById('copyright');
+
+    // Если текущий год больше стартового, показываем диапазон
+    if (currentYear > startYear) {
+      yearElement.textContent = `${startYear}–${currentYear}`;
+    } else {
+      yearElement.textContent = startYear; // Если ещё 2025 год
+    }
+  </script>
 </body>
 
 </html>
