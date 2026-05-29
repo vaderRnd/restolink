@@ -13,7 +13,6 @@
 @import url("variables.css");
 
 @media (width < 1250px) {
-
   .header,
   .main,
   .footer {

@@ -13,6 +13,7 @@
   inline-size: 1200px;
   border-radius: 10px;
   outline: 3px solid var(--brand-green);
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 }
 
@@ -26,6 +27,7 @@
 }
 
 .main__section_heading {
+  -webkit-padding-before: 25px;
   padding-block-start: 25px;
   color: var(--main-text-color);
   font-family: inherit;
@@ -36,7 +38,9 @@
 }
 
 .main__section_list {
+  -webkit-padding-before: 25px;
   padding-block-start: 25px;
+  -webkit-padding-after: 25px;
   padding-block-end: 25px;
   display: flex;
   flex-direction: row;
@@ -56,7 +60,10 @@
     background-color: #f0f0f0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
-    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    transition:
+      background-color 0.3s ease,
+      box-shadow 0.3s ease,
+      transform 0.3s ease;
     cursor: pointer;
   }
 }
@@ -105,10 +112,12 @@
   inline-size: 1200px;
   border-radius: 10px;
   outline: 3px solid var(--brand-green);
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 }
 
 .main__section_list-iiko {
+  -webkit-padding-after: 25px;
   padding-block-end: 25px;
   display: flex;
   flex-direction: column;

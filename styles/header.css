@@ -5,12 +5,14 @@
 }
 
 .header__logo {
+  -webkit-padding-before: 45px;
   padding-block-start: 45px;
   inline-size: 700px;
   /* align-self: center; */
 }
 
 .header__heading {
+  -webkit-padding-before: 25px;
   padding-block-start: 25px;
   color: var(--main-text-color);
   text-align: center;
@@ -37,11 +39,14 @@
   block-size: 100%;
   border-radius: 10px;
   outline: 3px solid var(--brand-green);
+  -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
 }
 
 .header__socials_list {
+  -webkit-padding-before: 25px;
   padding-block-start: 25px;
+  -webkit-padding-after: 25px;
   padding-block-end: 25px;
   display: flex;
   flex-direction: row;
@@ -68,6 +73,7 @@
 }
 
 .header__qr {
+  -webkit-padding-end: 5px;
   padding-inline-end: 5px;
   width: 100px;
   height: 100px;
